@@ -1,6 +1,6 @@
  /* * {
-     border: 1px solid red;
- }*/
+      border: 1px solid red;
+  }*/
 
  body {
      background-image: url("../images/flowers-2.jpg");
@@ -55,4 +55,13 @@
      font-size: 1.7rem;
      margin: 0 70px;
      border-bottom: .3em solid darkgrey;
+     text-align: center;
+ }
+
+ .things .things-i-want-list ul,
+ .things .things-i-need-list ul,
+ .things .things-i-have-list ul {
+     list-style-image: url(../images/check-mark.png);
+     list-style-position: outside;
+     margin: 14px 91px 0px 83px;
  }
