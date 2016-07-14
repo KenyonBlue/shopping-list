@@ -1,63 +1,57 @@
- /* * {
+  /** {
       border: 1px solid red;
   }*/
 
- body {
-     background-image: url("../images/flowers-2.jpg");
-     background-size: cover;
-     background-repeat: no-repeat;
- }
+  body {
+      background-image: url("../images/flowers-2.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
 
- .site-title {
-     text-align: center;
-     font-family: cursive;
-     font-size: 2.5rem;
-     margin: -1em 0em;
-     padding: 0em;
-     height: auto;
-     color: white;
- }
+  .site-title {
+      text-align: center;
+      font-family: cursive;
+      font-size: 2.5rem;
+      margin: -1em 0em;
+      padding: 0em;
+      height: auto;
+      color: white;
+  }
 
- .things {
-     padding: 0em 0em;
-     width: 96%;
-     height: auto;
-     text-align: center;
-     margin: 0 auto;
- }
+  .things {
+      padding: 0em 0em;
+      width: 96%;
+      height: auto;
+      text-align: center;
+      margin: 0 auto;
+  }
 
- .things-i-want,
- .things-i-need,
- .things-i-have {
-     width: 30%;
-     display: inline-block;
-     margin: 0 1em;
-     color: dimgray;
-     font-size: 1.2rem;
-     max-width: 30%;
-     border: .1em solid white;
-     border-radius: 30px 40px;
-     background-image: url("../images/paper.jpg");
-     background-size: cover;
-     /*background-color: dimgrey;*/
-     box-shadow: 10px 4px 18px 0px green;
-     opacity: 0.9;
-     height: 21em;
- }
+  .things-i-need {
+      width: 30%;
+      display: inline-block;
+      margin: 0 1em;
+      color: dimgray;
+      font-size: 1.2rem;
+      max-width: 30%;
+      border: .1em solid white;
+      border-radius: 30px 40px;
+      background-image: url("../images/paper.jpg");
+      background-size: cover;
+      /*background-color: dimgrey;*/
+      box-shadow: 10px 4px 18px 0px green;
+      opacity: 0.9;
+      height: 21em;
+  }
 
- .things .things-i-want-title,
- .things .things-i-need-title,
- .things .things-i-have-title {
-     font-size: 1.7rem;
-     margin: 0 70px;
-     border-bottom: .3em solid darkgrey;
-     text-align: center;
- }
+  .things .things-i-need-title {
+      font-size: 1.7rem;
+      margin: 0 70px;
+      border-bottom: .3em solid darkgrey;
+      text-align: center;
+  }
 
- .things .things-i-want-list ul,
- .things .things-i-need-list ul,
- .things .things-i-have-list ul {
-     list-style-image: url(../images/check-mark.png);
-     list-style-position: outside;
-     margin: 14px 91px 0px 83px;
- }
+  .things .things-i-need-list ul {
+      list-style-image: url(../images/check-mark.png);
+      list-style-position: outside;
+      margin: 14px 91px 0px 83px;
+  }
