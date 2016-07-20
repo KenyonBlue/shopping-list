@@ -16,9 +16,33 @@
 
         <div class="things-i-need">
             <header class="things-i-need-title">
-                <h3>THINGS I NEED</h3></header>
+                <h3>THINGS I NEED</h3>
+            </header>
 
-            <div class="things-i-need-list">
+            <div class="input-form">
+                <input type="text" value="" maxlength="20" placeholder="Add an item" id="addItemValue">
+                <button type="submit" id="addItem">+</button>
+            </div>
+            <ul class="shopping-list">
+                <!-- while building the HTML and CSS for this app, we need the 2 LIs bellow,
+but after we finish HTML and CSS phase, the JS file will create them dynamicaly,
+so we can comment them out when the app is ready for delivery-->
+                <!--
+                <li>
+                    <button class="checkbox">✓</button>
+                    <span class="list">Apples</span>
+                    <button class="delete">x</button>
+                </li>
+                <li>
+                    <button class="checkbox">✓</button>
+                    <span class="list">Oranges</span>
+                    <button class="delete">x</button>
+                </li>
+-->
+
+            </ul>
+            <!--       This is the div that works    -->
+            <!-- <div class="things-i-need-list">
                 <div class="input_fields_wrap">
                     <button class="add_field_button">Add More Things You Want</button>
                     <div>
@@ -26,9 +50,16 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
+            <!--      This is the div that works      -->
 
+
+
+        </div>
     </div>
+    <footer>
+        <button class="delete-all">Clear List</button>
+    </footer>
     <script src="js/jquery-3.0.0.js"></script>
     <script src="js/shopping-list.js"></script>
 
